@@ -6,4 +6,10 @@ const returnFirstTwoDrivers = function(drivers) {
     return drivers.slice(-2);
   }
 
-const selectingDrivers =[returnFirstTwoDrivers, returnLastTwoDrivers]
+const selectingDrivers =[returnFirstTwoDrivers, returnLastTwoDrivers];
+
+const fareMultiplier = function(amount) {
+  return function(multiplier) {
+    return amount *multiplier;
+  }
+} 
