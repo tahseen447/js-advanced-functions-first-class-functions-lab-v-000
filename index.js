@@ -10,6 +10,6 @@ const selectingDrivers =[returnFirstTwoDrivers, returnLastTwoDrivers];
 
 const fareMultiplier = function(amount) {
   return function(multiplier) {
-    return amount *multiplier;
+    return amount * multiplier;
   }
-} 
+}
